@@ -1,3 +1,29 @@
 # Music Memories V2
-
-TODO: Description
+A full-stack application music project management system using React, TypeScript, and Tailwind CSS, featuring a responsive, mobile-first design with custom CSS animations and skeleton loading states for optimized UX. Architected a PostgreSQL database via Supabase, implementing Row-Level Security (RLS) and secure session-based authentication to protect administrative routes and govern CRUD operations. All projects are stored in Supabase (PostgreSQL) and deployed using Vercel.
+- Home
+  - About
+  - Project of the Month (Can be a song, album, or extended play/mini album)
+- Reviewed
+  - Collection of projects (Albums, Extended Plays, or Mini Albums)
+    - Can be filtered by year (2023, 2024)
+    - Can be sorted by:
+       - Rating (High to low or low to high)
+       - Release Date (Earliest to latest or latest to earliest)
+       - Alphabetical
+    - If clicked on a project, a new project page will open
+      - The project page will include:
+        - "Project Title" - "Artist"
+        - Type
+        - Genre
+        - Release date
+        - Rating
+        - Favorites (optional)
+        - Embedded Spotify
+ - Pending
+   - Collection of projects (Albums, Extended Plays, or Mini Albums)
+   - These are projects that I want to listen to and rate to put on the website
+ - 10/10
+   - Collection of projects (Albums, Extended Plays/Mini Albums)
+   - These are the projects, in my opinion are a perfect 10/10, I give my thoughts on each project.
+ - Admin (Only I can access)
+   - Manage projects (create, read, update, delete).
