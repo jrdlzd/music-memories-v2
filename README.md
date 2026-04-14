@@ -1,5 +1,6 @@
 # Music Memories V2
-A full-stack application music project management system using React, TypeScript, and Tailwind CSS, featuring a responsive, mobile-first design with custom CSS animations and skeleton loading states for optimized UX. Architected a PostgreSQL database via Supabase, implementing Row-Level Security (RLS) and secure session-based authentication to protect administrative routes and govern CRUD operations. All projects are stored in Supabase (PostgreSQL) and deployed using Vercel.
+A full-stack application music project management system using React, TypeScript, and Tailwind CSS, a significant improvement over the last iteration of this website, using a Bootstrap template and basic HTML, CSS, and JavaScript. This features a responsive, mobile-first design with custom CSS animations and skeleton loading states for optimized UX. Architected a PostgreSQL database via Supabase, implementing Row-Level Security (RLS) and secure session-based authentication to protect administrative routes and govern CRUD operations. All projects are stored in Supabase (PostgreSQL) and deployed using Vercel.
+
 - Home
   - About
   - Project of the Month (Can be a song, album, or extended play/mini album)
